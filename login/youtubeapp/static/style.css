@@ -1,0 +1,262 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    transition: all .4s linear;
+}
+
+.logo:hover{
+    color: black;
+    transition: all .4s linear;
+    text-decoration: none;
+}
+
+.click{
+    display: flex;
+    align-items: center;
+    transition: all .4s linear;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.icons li{
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    align-items: center;
+    padding: 8px 6px 2px 0px;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+.icons .p:hover{
+    transition: all .4s linear;
+    color: black;
+}
+
+.icons .list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    transition: all .4s linear;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+    padding: 11px 5px 0px 13px;
+}
+
+
+.icons .list1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 11px 5px 0px 13px;
+    align-items: center;
+    transition: all .4s linear;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+.icons .list2{
+    display: flex;
+    flex-direction: row;
+    padding: 11px 5px 0px 13px;
+    width: 100%;
+    transition: all .4s linear;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+.icons .list5{
+    display: flex;
+    flex-direction: row;
+    padding: 11px 5px 0px 13px;
+    width: 100%;
+    transition: all .4s linear;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+li:hover{
+    background-color: black;
+    color: white;
+    transition: all .4s linear;
+    border-radius: 6px;
+}
+
+.icons .list3{
+    display: flex;
+    text-transform: capitalize;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding: 11px 5px 0px 13px;
+    transition: all .4s linear;
+    justify-content: space-around;
+}
+
+.icons .list4{
+    display: flex;
+    flex-direction: row;
+    padding: 11px 5px 0px 13px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+.p{
+    font-size: 16px;
+    color: white;
+    display: none;
+}
+.p1{
+    font-size: 16px;
+    color: white;
+    display: none;
+}
+.p2{
+    font-size: 16px;
+    color: white;
+    display: none;
+}
+.p3{
+    font-size: 16px;
+    color: white;
+    display: none;
+}
+.p4{
+    font-size: 16px;
+    color: white;
+    display: none;
+}
+
+.p5{
+    font-size: 16px;
+    color: white;
+    display: none;
+}
+
+.links li a{
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#x{
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+#bars{
+    line-height: 1.5;
+}
+
+#bars:hover{
+    color: black;
+}
+
+#bars:focus{
+    background-color: black;
+    color: white;
+}
+
+#x:hover{
+    color: black;
+}
+
+#x:focus{
+    background-color: whiteblack;
+    color: white;
+}
+
+i{
+    font-size: 24px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    height: 39px;
+    transition: all .4s linear;
+}
+
+header{
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 176px;
+    background-color: rgb(241, 30, 30);
+    flex-direction: column;
+}
+
+header{
+    width: 60px;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 20px;
+    position: fixed;
+}
+
+.icons{
+   width: 100%;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   padding-left: 0%;
+   margin-top: 70px;
+}
+
+.icons li{
+    margin-bottom: 40px;
+}
+
+#ic{
+    text-decoration: none;
+    color: white;
+}
+
+.p-options{
+    display: block;
+}
+
+
+
+/* right side start */
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: fit-content;
+    background-color: transparent;
+}
+
+
+.mainbox{
+    /* width: 88.6vw;
+    background-color: skyblue;
+    margin-left: 11.4vw; */
+    width: 96.1vw;
+    background-color: "skyblue";
+    margin-left: 3.9vw; 
+    display: flex;
+    flex-direction: column;
+}
